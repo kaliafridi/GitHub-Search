@@ -41,11 +41,11 @@ def search_github_repositories(keyword):
 
 def display_animation():
     for _ in range(3):
-        print(Fore.PINK + "Searching.")
+        print(Fore.YELLOW + "Searching.")
         sleep(0.5)
-        print(Fore.RED + "Searching..")
+        print(Fore.YELLOW + "Searching..")
         sleep(0.5)
-        print(Fore.ORANGE + "Searching...")
+        print(Fore.YELLOW + "Searching...")
         sleep(0.5)
 
 def main():
